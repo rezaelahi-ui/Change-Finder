@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change Finder README</title>
 </head>
 <body>
     <h1>Change Finder</h1>
@@ -51,9 +50,26 @@
     <p>برای استفاده از ابزار Change Finder:</p>
     <ol>
         <li>مخزن را کلون کنید:</li>
+        <li>
+            <pre>
+                <code>
+                    public class ProductCategory
+{
+    #region Primary Key
+    [Key]
+    public int CategoryId { get; set; }
+    #endregion
+
+    #region Basic Properties
+    [Required(ErrorMessage = "وارد کردن نام گروه الزامیست")]
+    [Display(Name = "نام گروه")]
+    [ShowInReport]
+    [LogIfChange]
+    public string Name { get; set; }
+                </code>
+            </pre>
+        </li>
         <pre><code>git clone https://github.com/yourusername/Change-Finder.git</code></pre>
-        <li>پروژه را در Visual Studio یا هر محیط توسعه سازگار با .NET باز کنید.</li>
-        <li>فایل‌های <code>ChangeFinder.cs</code> و <code>ChangeLogModel.cs</code> را بررسی کنید تا با عملکرد اصلی آن‌ها آشنا شوید.</li>
     </ol>
     <h2>نحوه استفاده</h2>
     <p>
