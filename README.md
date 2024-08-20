@@ -1,4 +1,3 @@
-English:
 Change Finder
 This repository contains a .NET project that includes a Change Finder utility. The main purpose of this tool is to track and log changes in data over time. It provides a way to identify and document modifications efficiently.
 
@@ -13,7 +12,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/Change-Finder.git
+<code>git clone https://github.com/yourusername/Change-Finder.git</code>
 Open the project in Visual Studio or any .NET-compatible IDE.
 
 Explore the ChangeFinder.cs and ChangeLogModel.cs files to understand the core functionality.
@@ -27,8 +26,6 @@ Feel free to open issues or submit pull requests if you find any bugs or have su
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-فارسی:
-Change Finder
 این مخزن شامل یک پروژه‌ی .NET است که ابزار Change Finder را فراهم می‌کند. هدف اصلی این ابزار، ردیابی و ثبت تغییرات داده‌ها در طول زمان است. این ابزار به شما کمک می‌کند تغییرات را به‌صورت کارآمد شناسایی و مستند کنید.
 
 ویژگی‌ها
@@ -42,7 +39,7 @@ Change Finder
 
 bash
 Copy code
-git clone https://github.com/yourusername/Change-Finder.git
+<code>git clone https://github.com/yourusername/Change-Finder.git</code>
 پروژه را در Visual Studio یا هر محیط توسعه سازگار با .NET باز کنید.
 
 فایل‌های ChangeFinder.cs و ChangeLogModel.cs را بررسی کنید تا با عملکرد اصلی آن‌ها آشنا شوید.
