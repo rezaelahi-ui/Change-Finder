@@ -24,7 +24,6 @@
     <p>To get started with the Change Finder utility:</p>
     <ol>
       <li>Clone the repository:</li>
-      <pre><code>git clone https://github.com/yourusername/Change-Finder.git</code></pre>
       <li>Open the project in Visual Studio or any .NET-compatible IDE.</li>
       <li>
         Explore the <code>ChangeFinder.cs</code> and
@@ -66,7 +65,6 @@
     <p>برای استفاده از ابزار Change Finder:</p>
     <ol>
       <li>مخزن را کلون کنید:</li>
-      <pre><code>git clone https://github.com/yourusername/Change-Finder.git</code></pre>
       <li>
         برای استفاده از این ابزار شما باید <code>Attribute</code> 
         <strong>LogIfChange</strong> را در بالای فیلدها استفاده کنید.
